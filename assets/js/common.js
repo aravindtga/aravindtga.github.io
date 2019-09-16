@@ -478,12 +478,12 @@ $(document).ready(function() {
             phone = $("#phoneContact").val(),
             subject = $("#subjectContact").val();
 			
-        var url = "https://formspree.io/aravind.vds@gmail.com";
+        var url = "//formspree.io/aravind.vds@gmail.com";
 		
         $.ajax({
             type: "POST",
             url: url,
-            data: "name=" + name + "&email=" + email + "&message=" + message + "&phone=" + phone +"&Subject=" + subject,
+            data: $("#contact-form").serialize(),
             success : function(text){
                 if (text == "success"){
                     formSuccess();
