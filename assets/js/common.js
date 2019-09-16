@@ -478,7 +478,7 @@ $(document).ready(function() {
             phone = $("#phoneContact").val(),
             subject = $("#subjectContact").val();
 			
-        var url = "https://formspree.io/aravind.vds@gmail.com";
+        var url = "https://formsubmit.co/aravind.vds@gmail.com";
 		
         $.ajax({
             type: "POST",
