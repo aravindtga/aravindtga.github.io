@@ -474,14 +474,16 @@ $(document).ready(function() {
     function submitForm(){
         var name = $("#nameContact").val(),
             email = $("#emailContact").val(),
-            message = $("#messageContact").val();
+            message = $("#messageContact").val(),
+            phone = $("#phoneContact").val(),
+            subject = $("#subjectContact").val();
 			
-        var url = "assets/php/form-contact.php";
+        var url = "https://formspree.io/aravind.vds@gmail.com";
 		
         $.ajax({
             type: "POST",
             url: url,
-            data: "name=" + name + "&email=" + email + "&message=" + message,
+            data: "name=" + name + "&email=" + email + "&message=" + message + "&phone=" + phone +"&Subject=" + subject,
             success : function(text){
                 if (text == "success"){
                     formSuccess();
