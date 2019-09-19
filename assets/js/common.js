@@ -116,7 +116,6 @@ $(document).ready(function() {
     $sideNavOpen.on('click', function() {
         tl.reversed() ? tl.play() : tl.reverse();	
     });
-
 	
     /*-----------------------------------------------------------------
       Carousel
@@ -516,6 +515,9 @@ $(document).ready(function() {
         }
         $("#validator-contact").removeClass().addClass(msgClasses).text(msg);
     }
+
+
+    $(".hamburger").click();
 });
 
 
