@@ -516,8 +516,9 @@ $(document).ready(function() {
         $("#validator-contact").removeClass().addClass(msgClasses).text(msg);
     }
 
-
-    $(".hamburger").click();
+    if (window.matchMedia('(min-width: 800px)').matches) {
+        $(".hamburger").click();
+    }
 });
 
 

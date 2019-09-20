@@ -2600,3 +2600,18 @@ iframe {
     margin-left: 7px;
     transform: rotate(135deg)
 }
+
+/* color custom */
+.fb-color {
+  color:#4267b2
+}
+
+.ln-color {
+  color:#0077b5
+}
+
+.so-color {
+  color: #f48024
+}
+
+
