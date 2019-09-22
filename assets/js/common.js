@@ -471,13 +471,7 @@ $(document).ready(function() {
     });
 
     function submitForm(){
-        var name = $("#nameContact").val(),
-            email = $("#emailContact").val(),
-            message = $("#messageContact").val(),
-            phone = $("#phoneContact").val(),
-            subject = $("#subjectContact").val();
-			
-        var url = "https://formsubmit.co/aravind.vds@gmail.com";
+        var url = "a70a97d9274c83719af036fb6a5dc993.php";
 		
         $.ajax({
             type: "POST",
@@ -485,7 +479,7 @@ $(document).ready(function() {
             data: $("#contact-form").serialize(),
             dataType:"json",
             success : function(text){
-                if (text == "success"){
+                if (text == "Success"){
                     formSuccess();
                 } else {
                     formError();
