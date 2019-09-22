@@ -2614,4 +2614,10 @@ iframe {
   color: #f48024
 }
 
+.validation-success {
+  color: green;
+}
 
+.validation-danger {
+  color: red;
+}

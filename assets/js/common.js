@@ -477,7 +477,6 @@ $(document).ready(function() {
             type: "POST",
             url: url,
             data: $("#contact-form").serialize(),
-            dataType:"json",
             success : function(text){
                 if (text == "Success"){
                     formSuccess();
