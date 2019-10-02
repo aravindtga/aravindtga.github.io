@@ -848,7 +848,7 @@ iframe {
   position: absolute;
   top: 0;
   right: 0;
-  width: 45%;
+  width: 37%;
   z-index: 1;
 }
 @media only screen and (max-width: 992px) {
