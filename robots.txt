@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /contact.html
+
+SITEMAP: https://www.avnd.io/sitemap.xml
